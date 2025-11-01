@@ -249,7 +249,7 @@ MIT License
 ## 📞 联系我们
 
 - **项目地址**：[GitHub Repository]
-- **在线演示**：[https://u0y00dcfs8bi.space.minimaxi.com](https://u0y00dcfs8bi.space.minimaxi.com)
+- **在线演示**：[https://xqk91081cm80.space.minimaxi.com](https://xqk91081cm80.space.minimaxi.com)
 - **邮箱**：contact@711club.edu.cn
 
 ---
