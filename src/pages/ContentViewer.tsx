@@ -31,7 +31,7 @@ const ContentViewer = () => {
         
         // 使用正则表达式解析frontmatter
         const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
-        let frontmatter = {};
+        let frontmatter: Record<string, any> = {};
         let markdownContent = content;
         
         console.log('Frontmatter匹配结果:', frontmatterMatch);
