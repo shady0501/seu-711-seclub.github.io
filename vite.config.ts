@@ -5,7 +5,6 @@ import sourceIdentifierPlugin from 'vite-plugin-source-identifier'
 
 const isProd = process.env.BUILD_MODE === 'prod'
 export default defineConfig({
-  base: '/seu-711-seclub.github.io/',
   plugins: [
     react(), 
     sourceIdentifierPlugin({
