@@ -1,0 +1,132 @@
+{
+  "announcements": [],
+  "experiences": {
+    "categories": {
+      "保研": [
+        {
+          "title": "保研经验分享：从东南大学到清华计算机",
+          "author": "张三",
+          "year": "2024届",
+          "date": "2024-10-15",
+          "excerpt": "从GPA准备到面试技巧，详细分享保研清华计算机系的完整经验...",
+          "tags": [
+            "\"保研\"",
+            "\"清华大学\"",
+            "\"计算机系\""
+          ],
+          "category": "保研",
+          "file": "experiences/保研/graduate-school-experience.md"
+        }
+      ],
+      "就业": [
+        {
+          "title": "大厂实习经验分享：我在字节跳动的三个月",
+          "author": "李四",
+          "year": "2023届",
+          "date": "2024-09-20",
+          "excerpt": "分享在字节跳动前端团队实习的经历，包括面试准备和工作内容...",
+          "tags": [
+            "\"实习\"",
+            "\"字节跳动\"",
+            "\"前端开发\""
+          ],
+          "category": "就业",
+          "file": "experiences/就业/internship-experience.md"
+        }
+      ],
+      "留学": [],
+      "实习": [],
+      "考研": [],
+      "技术栈": [],
+      "announcements": [
+        {
+          "title": "2024秋季聚会活动",
+          "author": "711Club管理员",
+          "year": "2024届",
+          "date": "2024-11-15",
+          "excerpt": "我们诚挚邀请所有711Club成员参加2024年秋季聚会活动！",
+          "tags": [
+            "\"线下聚会\"",
+            "\"经验分享\"",
+            "\"技术交流\""
+          ],
+          "category": "announcements",
+          "file": "experiences/announcements/2024-fall-meetup.md"
+        },
+        {
+          "title": "新成员欢迎指南",
+          "author": "711Club管理员",
+          "year": "2024届",
+          "date": "2024-11-01",
+          "excerpt": "欢迎加入711Club大家庭！为了帮助新成员快速融入社区，我们准备了这份详细的欢迎指南。",
+          "tags": [
+            "\"新成员\"",
+            "\"欢迎指南\"",
+            "\"社区介绍\""
+          ],
+          "category": "announcements",
+          "file": "experiences/announcements/new-member-welcome.md"
+        }
+      ]
+    },
+    "all": [
+      {
+        "title": "保研经验分享：从东南大学到清华计算机",
+        "author": "张三",
+        "year": "2024届",
+        "date": "2024-10-15",
+        "excerpt": "从GPA准备到面试技巧，详细分享保研清华计算机系的完整经验...",
+        "tags": [
+          "\"保研\"",
+          "\"清华大学\"",
+          "\"计算机系\""
+        ],
+        "category": "保研",
+        "file": "experiences/保研/graduate-school-experience.md"
+      },
+      {
+        "title": "大厂实习经验分享：我在字节跳动的三个月",
+        "author": "李四",
+        "year": "2023届",
+        "date": "2024-09-20",
+        "excerpt": "分享在字节跳动前端团队实习的经历，包括面试准备和工作内容...",
+        "tags": [
+          "\"实习\"",
+          "\"字节跳动\"",
+          "\"前端开发\""
+        ],
+        "category": "就业",
+        "file": "experiences/就业/internship-experience.md"
+      },
+      {
+        "title": "2024秋季聚会活动",
+        "author": "711Club管理员",
+        "year": "2024届",
+        "date": "2024-11-15",
+        "excerpt": "我们诚挚邀请所有711Club成员参加2024年秋季聚会活动！",
+        "tags": [
+          "\"线下聚会\"",
+          "\"经验分享\"",
+          "\"技术交流\""
+        ],
+        "category": "announcements",
+        "file": "experiences/announcements/2024-fall-meetup.md"
+      },
+      {
+        "title": "新成员欢迎指南",
+        "author": "711Club管理员",
+        "year": "2024届",
+        "date": "2024-11-01",
+        "excerpt": "欢迎加入711Club大家庭！为了帮助新成员快速融入社区，我们准备了这份详细的欢迎指南。",
+        "tags": [
+          "\"新成员\"",
+          "\"欢迎指南\"",
+          "\"社区介绍\""
+        ],
+        "category": "announcements",
+        "file": "experiences/announcements/new-member-welcome.md"
+      }
+    ]
+  },
+  "lastUpdated": "2025-11-01T19:54:37.004Z"
+}

@@ -1,0 +1,6 @@
+# SPA路由重定向配置
+/*    /index.html   200
+
+# 静态资源直接访问
+/assets/*  /assets/:splat  200
+/content/*  /content/:splat  200
