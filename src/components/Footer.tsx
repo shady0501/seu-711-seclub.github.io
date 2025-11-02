@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:contact@711club.edu.cn"
+                href="mailto:liumengxuan@xuantianit.cn"
                 className="text-neutral-400 hover:text-white transition-colors"
               >
                 <Mail size={20} />
@@ -34,7 +34,7 @@ const Footer = () => {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="#"
+                href="https://github.com/SEU-711-SEClub/seu-711-seclub.github.io/"
                 className="text-neutral-400 hover:text-white transition-colors"
               >
                 <Github size={20} />
@@ -85,15 +85,15 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">联系我们</h3>
             <ul className="space-y-2 text-neutral-400">
-              <li>QQ群：123456789</li>
-              <li>邮箱：contact@711club.edu.cn</li>
+              <li>QQ群：10252640589</li>
+              <li>邮箱：liumengxuan@xuantianit.cn</li>
               <li>地址：东南大学九龙湖校区</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-neutral-800 mt-8 pt-8 text-center text-neutral-400">
-          <p>&copy; 2024 711Club. 保留所有权利。</p>
+          <p>&copy; 2025 711Club. 保留所有权利。</p>
         </div>
       </div>
     </footer>
