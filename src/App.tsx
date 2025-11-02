@@ -10,7 +10,7 @@ import ContentViewer from './pages/ContentViewer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/seu-711-seclub.github.io">
       <div className="min-h-screen bg-background-gradient">
         <Navbar />
         <main>
