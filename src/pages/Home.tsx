@@ -123,33 +123,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Quick Entry */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-h2 font-bold text-center text-primary-900 mb-12">
-            快速入口
-          </h2>
-          <div className="flex justify-center">
-            <Link
-              to="/experiences"
-              className="group bg-background-surface p-8 rounded-lg shadow-sm hover:shadow-lg transition-all duration-normal transform hover:-translate-y-1 max-w-md"
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-h3 font-semibold text-primary-900 mb-2">
-                    浏览内容中心
-                  </h3>
-                  <p className="text-body text-neutral-600">
-                    查看经验分享、通知公告等所有重要内容
-                  </p>
-                </div>
-                <ArrowRight className="text-primary-500 group-hover:translate-x-1 transition-transform" size={24} />
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Latest News */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background-surface">
         <div className="max-w-7xl mx-auto">
