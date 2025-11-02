@@ -6,6 +6,7 @@
 
 ### 核心功能
 - **8个完整页面**：首页、关于我们、交流社区、经验分享、生涯规划、活动中心、加入我们、成员专区
+- **分类引导区**：内容中心按标签展示对应的引导提示、关键要点与配图，快速了解不同成长路径
 - **动态内容系统**：真正的Markdown文件读取和管理
 - **响应式设计**：桌面3-4列，平板2列，移动单列完美适配
 - **毛玻璃效果**：活动中心和交流社区的科技感界面
@@ -55,36 +56,38 @@ pnpm run build:content
 ```
 711club-website/
 ├── src/
-│   ├── components/          # 可复用组件
-│   │   ├── Navbar.tsx      # 导航栏
-│   │   ├── Footer.tsx      # 页脚
-│   │   └── MarkdownRenderer.tsx  # Markdown渲染器
-│   ├── hooks/              # 自定义Hooks
-│   │   └── useContent.ts   # 内容管理Hook
-│   ├── pages/              # 页面组件
-│   │   ├── Home.tsx        # 首页
-│   │   ├── About.tsx       # 关于我们
-│   │   ├── Community.tsx   # 交流社区
-│   │   ├── Experiences.tsx # 经验分享
-│   │   ├── Career.tsx      # 生涯规划
-│   │   ├── Activities.tsx  # 活动中心
-│   │   ├── Join.tsx        # 加入我们
-│   │   └── Member.tsx      # 成员专区
-│   └── App.tsx             # 应用入口
+│  ├── components/          # 可复用组件
+│  │  ├── Navbar.tsx        # 导航栏
+│  │  ├── Footer.tsx        # 页脚
+│  │  └── MarkdownRenderer.tsx  # Markdown渲染器
+│  ├── hooks/               # 自定义Hooks
+│  │  └── useContent.ts     # 内容管理Hook
+│  ├── pages/               # 页面组件
+│  │  ├── Home.tsx          # 首页
+│  │  ├── About.tsx         # 关于我们
+│  │  ├── Community.tsx     # 交流社区
+│  │  ├── Experiences.tsx   # 经验分享/内容中心
+│  │  ├── Career.tsx        # 生涯规划
+│  │  ├── Activities.tsx    # 活动中心
+│  │  ├── Join.tsx          # 加入我们
+│  │  └── Member.tsx        # 成员专区
+│  └── App.tsx              # 应用入口
 ├── public/
-│   ├── content/            # 动态内容文件夹
-│   │   ├── announcements/  # 活动公告
-│   │   ├── experiences/    # 经验分享
-│   │   │   ├── 保研/
-│   │   │   ├── 就业/
-│   │   │   ├── 留学/
-│   │   │   ├── 实习/
-│   │   │   ├── 考研/
-│   │   │   └── 技术栈/
-│   │   └── index.json      # 内容索引（自动生成）
-│   └── 711club-logo.jpg    # 网站Logo
+│  ├── content/             # 动态内容文件夹
+│  │  ├── announcements/    # 活动公告
+│  │  ├── experiences/      # 经验分享分类
+│  │  │  ├── 保研/
+│  │  │  ├── 就业/
+│  │  │  ├── 留学/
+│  │  │  ├── 实习/
+│  │  │  ├── 考研/
+│  │  │  └── 技术栈/
+│  │  └── index.json        # 内容索引（自动生成）
+│  ├── images/              # 公共图片资源（例如分类引导配图）
+│  │  └── college-path-roadmap.png  # 保研、考研、留学、就业时间规划示意图
+│  └── 711club-logo.jpg     # 网站Logo
 ├── scripts/
-│   └── generate-content-index.js  # 内容索引生成脚本
+│  └── generate-content-index.js  # 内容索引生成脚本
 ├── CONTENT_MANAGEMENT.md   # 内容管理指南
 └── README.md               # 项目说明
 ```
