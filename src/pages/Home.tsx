@@ -129,25 +129,12 @@ const Home = () => {
           <h2 className="text-h2 font-bold text-center text-primary-900 mb-12">
             社区数据
           </h2>
-          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-500 mb-2">
-                {index?.experiences?.all?.length ? `${index.experiences.all.length * 3}+` : '200+'}
-              </div>
-              <div className="text-body text-neutral-600">活跃成员</div>
-            </div> */}
             <div className="text-center">
               <div className="text-4xl font-bold text-accent-orange mb-2">
                 {index?.experiences?.all?.length || '50+'}
               </div>
               <div className="text-body text-neutral-600">经验分享</div>
             </div>
-            {/* <div className="text-center">
-              <div className="text-4xl font-bold text-semantic-info mb-2">
-                {index?.experiences?.categories?.announcements?.length ? `${index.experiences.categories.announcements.length * 2}+` : '20+'}
-              </div>
-              <div className="text-body text-neutral-600">活动场次</div>
-            </div> */}
             <div className="text-center">
               <div className="text-4xl font-bold text-semantic-success mb-2">4</div>
               <div className="text-body text-neutral-600">覆盖届数</div>
